@@ -476,9 +476,10 @@ button:focus {
 /* Inner container for the logos that will scroll */
 .logo-slider {
   display: flex;
+  width: calc(200%); /* Adjusted for the duplicated logos */
   justify-content: space-around;
   align-items: center;
-  animation: scroll 15s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 
 .logo-slider img {
@@ -490,11 +491,11 @@ button:focus {
 /* Animation for scrolling effect */
 @keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
