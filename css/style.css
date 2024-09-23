@@ -2053,7 +2053,7 @@ button:focus {
 
 .contact_info .info_item {
   position: relative;
-  padding-left: 45px;
+  padding-left: 0px;
 }
 
 .contact_info .info_item i {
@@ -2075,8 +2075,14 @@ button:focus {
   color: #222222;
 }
 
-.contact_info .info_item h6 a {
+.contact_info .info_item h4 a {
+  text-align: center;
   color: #fff;
+}
+
+.contact_info .info_item h3 {
+  text-align: center;
+  color: #9900cc;
 }
 
 .contact_info .info_item p {
