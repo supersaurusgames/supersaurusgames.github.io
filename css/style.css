@@ -3358,9 +3358,17 @@ h6 {
   outline: 6px solid #9900cc;
 }
 
-.single-defination p {
-  color: #222222;
+.single-defination .games {
+  color: #9900cc;
+  font-weight: bold;
   padding-top: 20px;
+}
+
+.single-defination .bio {
+  color: #222222;
+  font-size: 12px;
+  text-align: left;
+  padding-top: 0px;
 }
 
 .primary-checkbox input:checked+label {
